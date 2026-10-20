@@ -21,6 +21,25 @@
     color: white;
     cursor: pointer;
  }
+ .button{
+     text-align: center;
+ }
+ .section-heading{
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+ }
+  .section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+   .section-heading p{
+    font-size: 18px;
+    margin-bottom: 30px;
+   line-height: 30px;
+   color: #757575;   
+}
+
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -29,7 +48,8 @@
 header{
     background-color: #fff8f3;
     background: url("../images/developer.png") ,url("../images/header_bg.png") ,#fff8f3;
-    background-position:top left, bottom right;
+    /* background-position:top left, bottom right; */
+    background-position: 23px 38px  , bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
 }
@@ -84,4 +104,146 @@ nav .menu a{
 #banner .banner-image img{
  max-width: 585px;
   vertical-align: middle;
+}
+#about , #skills ,#resume{
+    padding-top: 130px;
+
+}
+#about .about-conteiner{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff8f3;
+    padding: 131px 156px;
+
+}
+#about .about-conteiner .about-info{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info .info-caed p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+.about-info .info-caed  h4{
+    font-size: 20px;
+
+}
+
+#skills .skills-conteiner{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+#skills .skills-conteiner .skills-box{
+    display: flex;
+    gap: 24px;
+
+}
+.skills-box .skill-card{
+    padding: 30px;
+    /* border: 1px solid red; */
+    max-width: 267px;
+    box-shadow: 0 6px 50px 0 #00000057;
+
+}
+.skill-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skill-card  h3{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom:20px;
+}
+.skill-card  p{
+    font-size: 16px;
+     color: #757575;
+     line-height: 28px;
+
+
+}
+#resume .resume-conteiner{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.resume-conteiner hr{
+    margin: 30px 0;
+}
+.resume-conteiner .section-title{
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+.resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+}
+
+.resume-card .card-title{
+font-size: 25px;
+font-weight: bold;
+margin-bottom: 10px;
+color: #474747;
+}
+.resume-card .card-info{
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 20px;
+color: #757575;
+}
+.resume-card .card-text{
+font-size: 16px;
+line-height: 28px;
+/* margin-bottom: 20px; */
+color: #757575;
+} 
+footer{
+    margin-top: 130px;
+    background-color: #fff8f3;
+    padding: 130px ;
+}
+footer .footer-conteiner{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 116px;
+}
+.footer-conteiner  .social{
+    max-width: 562px;
+
+}
+ .footer-conteiner  .social p{
+     color: #474747;
+     line-height: 28px;
+     font-size: 16px;
+     margin-bottom: 20px;
+
+ }
+.footer-conteiner h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-conteiner .icons a{
+    margin-right: 24px;
+
+
+}
+.footer-conteiner form input[type = "text"] , .footer-conteiner form textarea{ 
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
 }
