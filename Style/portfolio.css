@@ -7,6 +7,10 @@
  .logo h2{
    font-size: 45px; 
  }
+ .mukit{
+    color: #06ab0b;
+    font-weight: 900;
+ }
  .color-orenge{
     color: #FD6E0A;
     font-weight: 900;
@@ -121,11 +125,13 @@ nav .menu a{
 #about .about-conteiner .about-info{
     display: flex;
     justify-content: space-around;
+    gap: 10px;
 
 }
 .about-info .info-caed p{
     font-size: 20px;
     line-height: 30px;
+    
     color: #757575;
 }
 .about-info .info-caed  h4{
